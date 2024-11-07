@@ -1,5 +1,5 @@
 import React from 'react';
-import miRece from '../assets/projects/miRece.png'
+import miRece from '../assets/projects/miRece.jpeg'
 import taskid from '../assets/projects/taskid.jpeg'
 import blog from '../assets/projects/blog.jpeg'
 
