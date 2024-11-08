@@ -1,7 +1,7 @@
 import React from 'react';
 import miRece from '../assets/projects/mirece.jpeg'
 import taskid from '../assets/projects/taskid.jpeg'
-import blog from '../assets/projects/blog.jpeg'
+import blog from '../assets/projects/Blog.jpeg'
 
 function Projects() {
    const projects=[ {
