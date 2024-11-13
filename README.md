@@ -25,6 +25,10 @@ This is my personal portfolio built with React, showcasing my projects, skills, 
 
 ---
 
+##  Deployed Application
+- Deployed Application: https://paolasportfolio.netlify.app/
+
+
 ##  Screenshots
 
 ![Project Example](./src/assets/myPortfolio.png)
