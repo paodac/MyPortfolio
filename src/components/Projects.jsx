@@ -16,7 +16,7 @@ function Projects() {
         title: 'Taskid',
         image: taskid,
         link: 'https://github.com/marioxabel/Family-Task-Manager', 
-        liveDemo: 'https://proyecto1.netlify.app'
+        liveDemo: 'https://family-task-manager.onrender.com/'
       },
       {
         id: 3,
@@ -28,30 +28,46 @@ function Projects() {
     ];
 
   return (
-   <section id="projects" className="py-5">
-      <div className="container">
-        <h2 className="text-center mb-4">My Projects</h2>
-        <div className="row">
-          {projects.map((project) => (
-            <div key={project.id} className="col-md-4">
-              <div className="card">
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  <img
-                    src={project.image}
-                    className="card-img-top"
-                    alt={project.title}
-                  />
-                </a>
-                <div className="card-body">
-                  <h5 className="card-title">{project.title}</h5>
+    <section id="projects" className="py-5">
+    <div className="container">
+      <h2 className="text-center mb-4">My Projects</h2>
+      <div className="row">
+        {projects.map((project) => (
+          <div key={project.id} className="col-md-4">
+            <div className="card">
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={project.image}
+                  className="card-img-top"
+                  alt={project.title}
+                />
+              </a>
+              <div className="card-body">
+                <h5 className="card-title">{project.title}</h5>
+                <div className="d-flex justify-content-between">
+                  <a
+                    href={project.link}
+                    className="btn btn-secondary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href={project.liveDemo}
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live Demo
+                  </a>
                 </div>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
-    </section>
-  );
-}
+    </div>
+  </section>)}
 
 export default Projects;
