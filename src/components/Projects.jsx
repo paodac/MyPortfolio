@@ -1,26 +1,29 @@
 import React from 'react';
 import miRece from '../assets/projects/mirece.jpeg'
 import taskid from '../assets/projects/taskid.jpeg'
-import blog from '../assets/projects/Blog.jpeg'
+import candidates from '../assets/projects/SavedItems.png'
 
 function Projects() {
    const projects=[ {
         id: 1,
         title: 'MiRece',
         image: miRece,
-        link: 'https://saadia9.github.io/Mirece/', 
+        link: 'https://github.com/Saadia9/Mirece', 
+        liveDemo: 'https://saadia9.github.io/Mirece/'
       },
       {
         id: 2,
         title: 'Taskid',
         image: taskid,
         link: 'https://github.com/marioxabel/Family-Task-Manager', 
+        liveDemo: 'https://proyecto1.netlify.app'
       },
       {
         id: 3,
-        title: 'My First Blog',
-        image: blog,
-        link: 'https://github.com/paodac/MyFirstBlog', 
+        title: 'Candidate Search',
+        image: candidates,
+        link: 'https://github.com/paodac/CandidateSearch', 
+        liveDemo: 'https://candidatesearch-cjlk.onrender.com/'
       },
     ];
 
