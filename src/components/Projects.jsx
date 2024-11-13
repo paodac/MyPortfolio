@@ -55,7 +55,7 @@ function Projects() {
                   </a>
                   <a
                     href={project.liveDemo}
-                    className="btn btn-primary"
+                    className="btn custom-btn"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

@@ -29,7 +29,7 @@ function Contact() {
               required
             ></textarea>
           </div>
-          <button type="submit" className="btn btn-primary">Send</button>
+          <button type="submit" className="btn custom-btn">Send</button>
         </form>
       </div>
     </section>
